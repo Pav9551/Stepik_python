@@ -14,3 +14,4 @@ def test_func():
     res = list(zip(a, b, c))#Sample Input
     ans = list(zip(d, e))#Sample Output
     assert list(map(lambda y: my_function_1_8(*y), res)) == ans
+# C:\Users\pavel\PycharmProjects\pythonStepik>pytest -v
